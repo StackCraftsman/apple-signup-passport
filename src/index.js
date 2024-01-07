@@ -37,7 +37,7 @@ passport.deserializeUser((obj, cb) => {
 passport.use(new AppleStrategy({
     clientID: "com.yourservice",
     teamID: "######",
-    callbackURL: "https://codercruiser.github.io/web-design/redirect",
+    callbackURL: "https://.YOUR CALL BACK",
     keyID: "ZYM475Q23Y",
         privateKeyLocation: "/PATH TO YOUR CERT FILE/#####.p8"
 }, (req, accessToken, refreshToken, idToken, profile, cb) => {
