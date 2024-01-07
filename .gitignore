@@ -64,3 +64,10 @@ typings/
 config/AuthKey.p8
 config/config.json
 *.p8
+node_modules/
+.env
+play.sh
+package-lock.json
+*.pem
+*.p8
+.DS_Store
