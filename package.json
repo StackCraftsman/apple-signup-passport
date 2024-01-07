@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Passport Strategy for Sign in with Apple example",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +19,9 @@
   "homepage": "https://github.com/ananay/passport-apple-example#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "dotenv": "^16.3.1",
     "express": "^4.17.1",
+    "mongoose": "^8.0.3",
     "passport": "^0.4.0",
     "passport-apple": "ananay/passport-apple"
   },
