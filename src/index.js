@@ -35,11 +35,11 @@ passport.deserializeUser((obj, cb) => {
 });
 
 passport.use(new AppleStrategy({
-    clientID: "com.mybindle.app.service",
-    teamID: "VG882338W8",
+    clientID: "com.yourservice",
+    teamID: "######",
     callbackURL: "https://codercruiser.github.io/web-design/redirect",
     keyID: "ZYM475Q23Y",
-    privateKeyLocation: "/Users/mac/Downloads/passport-apple-example/AuthKey_ZYM475Q23Y.p8"
+        privateKeyLocation: "/PATH TO YOUR CERT FILE/#####.p8"
 }, (req, accessToken, refreshToken, idToken, profile, cb) => {
     console.log("Apple authentication successful. Profile:", profile);
 
@@ -88,5 +88,5 @@ app.post("/auth", (req, res, next) => {
 });
 
 app.listen(4000, () => {
-    console.log("Server started on https://passport-apple.ananay.dev");
+    console.log("Server started");
 });
