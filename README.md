@@ -1,6 +1,6 @@
 #  [Example] Sign in with Apple for Passport.js
 
-<a href="https://twitter.com/intent/follow?screen_name=ananayarora"><img src="https://img.shields.io/twitter/follow/ananayarora.svg?label=Follow%20@ananayarora" alt="Follow @ananayarora"></img></a>
+<a href="https://twitter.com/intent/follow?screen_name=codercruiser"><img src="https://img.shields.io/twitter/follow/codercruiser.svg?label=Follow%20@codercruiser" alt="Follow @codercruiser"></img></a>
 </p>
 
 **This repository is a how-to-use example for my library – passport-apple**
@@ -42,6 +42,6 @@ Also make sure you've placed your AuthKey file in the config folder as well!
 
 ## Questions / Contributing
 
-Feel free to open issues and pull requests. If you would like to be one of the core creators of this library, please reach out to me at i@ananayarora.com or message me on twitter @ananayarora!
+Feel free to open issues and pull requests. If you would like to be one of the core creators of this library, please reach out to me at i@sam.com or message me on twitter @codercruiser!
 
 <h4> Created with ❤️ by <a href="https://samcraft_.com">sam</a></h4>
